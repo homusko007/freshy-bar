@@ -26,6 +26,8 @@
   html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    position: relative;
+    overflow-x: hidden;
   }
 
   *, *:before, *:after {
@@ -160,6 +162,7 @@ height: 24px;
 
 .hero {
     padding: 30px 0 85px;
+    /*overflow-x: hidden;*/
 }
 
 .hero__container {
